@@ -16,6 +16,10 @@ require(['$api/models'], function(models) {
     skip();
   });
 
+  setInterval(function(){
+    skip();
+  }, 1000);
+
   skip();
 });
 
